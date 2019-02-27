@@ -1,5 +1,6 @@
 	 	 	
-
+# PEEB - 4
+Demonstrate Carbon Emmissivity. Uses JFreeChart API
 
 Purpose: To develop a quantitative understanding of the temperature of the Earth, the effect of the atmosphere on the surface temperature, the anthropogenic impact on the atmosphere, and how the surface temperature can be controlled – either warmer or cooler – by atmospheric modification.
 
@@ -87,3 +88,5 @@ Tp = {[2 (1 – α)Save]/ [σ(2 – ε)]}1/4	(4)
 	An example of an irreversible process is the flow of heat energy from a hot object in contact with a cold object. Eventually, they both achieve the same equilibrium temperature. If we then separate the objects they remain at the equilibrium temperature and do not naturally return to their original temperatures. The process of bringing them to the same temperature is irreversible.
 
 	 	 	
+			
+- Aditya Prerepa
