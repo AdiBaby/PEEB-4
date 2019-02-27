@@ -1,4 +1,6 @@
 # PEEB-4
+Calculate carbon emmissivity.
 
-This project is solely for purposes of education. Project property of Aditya Prerepa, MSJHS 18-19. 
-Project Energy Earth Balance 4.
+# Description
+Calculate Carbon Emmissivity throughout different releases. Uses JFreeChart API to visualize graph, to raise awareness of
+global warming.
