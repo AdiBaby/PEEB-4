@@ -15,7 +15,7 @@ import org.jfree.data.category.DefaultCategoryDataset;
 import java.util.Map;
 
 
-public class MainActivity extends ApplicationFrame{
+public class MainActivity extends ApplicationFrame {
 
     /*
      * Constructor for Main Class (MainActivity), this class needs
@@ -39,7 +39,6 @@ public class MainActivity extends ApplicationFrame{
      * are the x and y axis (Emissivity and T_p) that we have to plot.
      * We add it to the Object DefaultCategoryDataset.
      */
-
     private DefaultCategoryDataset createDataset( LinkedHashMap<Double, Double> T_p_ValuesInArray) {
         DefaultCategoryDataset dataset = new DefaultCategoryDataset( );
         for(Map.Entry<Double, Double> entry : T_p_ValuesInArray.entrySet()) {
@@ -60,7 +59,6 @@ public class MainActivity extends ApplicationFrame{
      * the title of the application, the title of the chart, and the LinkedHashMap of the
      * values.
      */
-
     public static void main(String[] args) {
         AstralBody earth = new AstralBody(0.3, 342);
         LinkedHashMap<Double, Double> t_p_vals = earth.gen_T_p_map(0,1,0.1);
